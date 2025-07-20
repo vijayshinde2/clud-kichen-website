@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MahaZaika Cloud Kitchen</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff8f0;
+      color: #333;
+    }
+
+    header {
+      background-color: #a84300;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1rem;
+      font-weight: 500;
+    }
+
+    .hero {
+      padding: 4rem 2rem;
+      text-align: center;
+      background: #fff2e6;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+
+    .btn {
+      padding: 0.8rem 1.5rem;
+      background: #a84300;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      text-decoration: none;
+    }
+
+    .section {
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+
+    .menu-items {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .menu-card {
+      background: white;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    .menu-card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+
+    @media (max-width: 600px) {
+      .hero h2 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>MahaZaika</h1>
+    <nav>
+      <a href="#menu">Menu</a>
+      <a href="#about">About</a>
+      <a href="#order">Order</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to MahaZaika Cloud Kitchen</h2>
+    <p>Authentic Maharashtrian Taste Meets Fast Food Fun!</p>
+    <a href="#menu" class="btn">View Menu</a>
+  </section>
+
+  <section id="menu" class="section">
+    <h2>Our Menu</h2>
+    <div class="menu-items">
+      <div class="menu-card">
+        <img src="https://via.placeholder.com/300x200?text=Chicken+Biryani" alt="Chicken Biryani">
+        <h3>Chicken Biryani</h3>
+        <p>Spicy, flavorful, served with raita.</p>
+      </div>
+      <div class="menu-card">
+        <img src="https://via.placeholder.com/300x200?text=Veg+Pizza" alt="Veg Pizza">
+        <h3>Veg Pizza</h3>
+        <p>Crispy crust, loaded with veggies and cheese.</p>
+      </div>
+      <div class="menu-card">
+        <img src="https://via.placeholder.com/300x200?text=Cheese+Burger" alt="Cheese Burger">
+        <h3>Cheese Burger</h3>
+        <p>Grilled patty, lettuce, cheese in a soft bun.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>MahaZaika is a proudly Maharashtrian-run cloud kitchen offering a perfect blend of tradition and modern flavors. We serve quality food prepared fresh, with love!</p>
+  </section>
+
+  <section id="order" class="section">
+    <h2>Order Now</h2>
+    <p>📞 Call or WhatsApp us: <a href="https://wa.me/91XXXXXXXXXX" class="btn">Order on WhatsApp</a></p>
+    <p>We are available on Zomato & Swiggy (Coming soon)</p>
+  </section>
+
+  <footer>
+    <p>© 2025 MahaZaika Cloud Kitchen | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
